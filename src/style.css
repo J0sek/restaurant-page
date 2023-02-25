@@ -11,4 +11,18 @@
   display: flex;
   justify-content: center;
   gap: 60px;
+  align-items: center;
+  border-bottom: 2px solid rgb(255, 215, 0);
+  box-sizing: border-box;
+  height: 95px;
+}
+
+.banner>div {
+  height: 20px;
+}
+
+.banner>div:hover {
+  border-bottom: 2px solid rgb(255, 215, 0);
+  margin-bottom: 5px;
+  cursor: pointer;
 }
