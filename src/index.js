@@ -1,6 +1,8 @@
 import { creator } from "./elementCreator.js";
 import "./style.css";
 
+const content = document.getElementById("content");
+
 const banner = creator("div", "banner");
 
 const homeBtn = creator("div", "banner-home");
