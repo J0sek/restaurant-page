@@ -1,19 +1,8 @@
-import { creator } from "./elementCreator.js";
+import banner from "./banner.js";
 import "./style.css";
 
 const content = document.getElementById("content");
 
-const banner = creator("div", "banner");
+let bannerDOM = banner();
 
-const homeBtn = creator("div", "banner-home");
-homeBtn.textContent = "HOME";
-
-const menuBtn = creator("div", "banner-menu");
-menuBtn.textContent = "MENU";
-
-const aboutBtn = creator("div", "banner-about");
-aboutBtn.textContent = "ABOUT";
-
-content.append(banner);
-
-banner.append(homeBtn, menuBtn, aboutBtn);
+content.append(bannerDOM);

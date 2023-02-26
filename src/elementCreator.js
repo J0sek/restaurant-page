@@ -10,4 +10,4 @@ function creator(elem, ...classes) {
   return newElem;
 }
 
-export { creator };
+export default creator;
