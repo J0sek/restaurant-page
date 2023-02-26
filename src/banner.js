@@ -1,6 +1,6 @@
 import creator from "./elementCreator.js";
 
-function banner() {
+function bannerMaker() {
   const banner = creator("div", "banner");
 
   const homeBtn = creator("div", "banner-home");
@@ -16,5 +16,7 @@ function banner() {
 
   return banner;
 }
+
+let banner = bannerMaker();
 
 export default banner;

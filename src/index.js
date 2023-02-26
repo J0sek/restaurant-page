@@ -3,9 +3,7 @@ import "./style.css";
 
 const content = document.getElementById("content");
 
-let bannerDOM = banner();
-
-content.append(bannerDOM);
+content.append(banner);
 
 const main = document.createElement("div");
 
