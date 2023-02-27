@@ -23,3 +23,7 @@ function mainHome() {
 
   return main;
 }
+
+let main = mainHome();
+
+export default main;

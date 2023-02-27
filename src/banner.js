@@ -1,4 +1,5 @@
 import creator from "./elementCreator.js";
+import main from "./mainHome.js";
 
 function bannerMaker() {
   const banner = creator("div", "banner");
