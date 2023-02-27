@@ -3,13 +3,13 @@ import creator from "./elementCreator.js";
 function bannerMaker() {
   const banner = creator("div", "banner");
 
-  const homeBtn = creator("div", "banner-home");
+  const homeBtn = creator("div", "banner-btn", "home");
   homeBtn.textContent = "HOME";
 
-  const menuBtn = creator("div", "banner-menu");
+  const menuBtn = creator("div", "banner-btn", "menu");
   menuBtn.textContent = "MENU";
 
-  const aboutBtn = creator("div", "banner-about");
+  const aboutBtn = creator("div", "banner-btn", "about");
   aboutBtn.textContent = "ABOUT";
 
   banner.append(homeBtn, menuBtn, aboutBtn);
