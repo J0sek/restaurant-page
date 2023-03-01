@@ -5,10 +5,14 @@ const menu = creator("div", "main", "menu");
 const menuTitle = creator("div", "menuTitle");
 
 const menuTitleCursive = creator("div", "menuTitleCursive");
+menuTitleCursive.textContent = "Bienvenidos";
 
 const menuTitleNormal = creator("div", "menuTitleNormal");
+menuTitleNormal.textContent = "MENU";
 
 menuTitle.append(menuTitleCursive, menuTitleNormal);
+
+menu.append(menuTitle);
 
 function MenuItem(name, desc, price) {
   return { name, desc, price };
