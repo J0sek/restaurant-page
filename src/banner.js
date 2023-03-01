@@ -2,7 +2,7 @@ import creator from "./elementCreator.js";
 import home from "./mainHome.js";
 import menu from "./mainMenu.js";
 
-let currentTab = "menu";
+let currentTab = "home";
 
 function loadTabContent(tab, tabContent) {
   tab.addEventListener("click", () => {
