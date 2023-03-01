@@ -39,12 +39,18 @@
   cursor: pointer;
 }
 
+.main {
+  height: calc(100vh - 95px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main.home {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 95px);
   color: white;
 }
 
@@ -93,4 +99,55 @@
 .menuButton:hover {
   color: white;
   cursor: pointer;
+}
+
+.main.menu {
+  background-color: rgb(245, 245, 240);
+}
+
+.menuTitle {
+  border-bottom: 4px solid rgb(197, 157, 95);
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.menuTitleCursive {
+  color: rgb(197, 157, 95);
+  font-family: 'golden cursive', cursive;
+  font-size: 100px;
+}
+
+.menuTitleNormal {
+  font-size: 70px;
+  font-weight: 800;
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu>[class^=item] {
+  margin: 40px 0 0px;
+  width: 550px;
+  text-align: center;
+  border-bottom: 3px solid rgb(197, 157, 95);
+}
+
+[class^=itemName] {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(200, 150, 0);
+  margin-bottom: 10px;
+}
+
+[class^=itemDesc] {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+[class^=itemPrice] {
+  font-size: 25px;
+  padding-bottom: 30px;
 }

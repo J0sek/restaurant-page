@@ -19,15 +19,15 @@ function MenuItem(name, desc, price) {
 }
 
 function menuItemDOM(menuItem, num) {
-  const item = creator("div", `menu${num}`);
+  const item = creator("div", `item${num}`);
 
-  const menuName = creator("div", `menuName${num}`);
+  const menuName = creator("div", `itemName${num}`);
   menuName.textContent = menuItem.name;
 
-  const menuDesc = creator("div", `menuDesc${num}`);
+  const menuDesc = creator("div", `itemDesc${num}`);
   menuDesc.textContent = menuItem.desc;
 
-  const menuPrice = creator("div", `menuPrice${num}`);
+  const menuPrice = creator("div", `itemPrice${num}`);
   menuPrice.textContent = menuItem.price;
 
   item.append(menuName, menuDesc, menuPrice);
