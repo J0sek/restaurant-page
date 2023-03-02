@@ -7,7 +7,7 @@ let title = creator("div", "aboutTitle");
 let titleCursive = creator("div", "aboutTitleCursive");
 titleCursive.textContent = "Bienvenidos";
 
-let titleNormal = creator("div", "aboutTitleNoraml");
+let titleNormal = creator("div", "aboutTitleNormal");
 titleNormal.textContent = "NOSOTROS";
 
 let aboutText = creator("div", "aboutText");
