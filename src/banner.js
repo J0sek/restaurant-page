@@ -17,7 +17,7 @@ function loadTabContent(tab, tabContent) {
 
     content.removeChild(main);
 
-    content.append(tabContent);
+    content.insertBefore(tabContent, document.querySelector(".footer"));
   });
 }
 
