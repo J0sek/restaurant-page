@@ -39,8 +39,18 @@
   cursor: pointer;
 }
 
+.footer {
+  box-sizing: border-box;
+  height: 80px;
+  color: white;
+  border-top: 2px solid rgb(255, 215, 0);
+  font-size: 20px;
+  line-height: 80px;
+  text-align: center;
+}
+
 .main {
-  height: calc(100vh - 95px);
+  height: calc(100vh - 177px);
   display: flex;
   flex-direction: column;
   align-items: center;
