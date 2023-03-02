@@ -45,12 +45,12 @@
   color: white;
   border-top: 2px solid rgb(255, 215, 0);
   font-size: 20px;
-  line-height: 80px;
   text-align: center;
+  padding-top: 30px;
 }
 
 .main {
-  height: calc(100vh - 177px);
+  height: calc(100svh - 177px);
   display: flex;
   flex-direction: column;
   align-items: center;
