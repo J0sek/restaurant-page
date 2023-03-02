@@ -151,3 +151,37 @@
   font-size: 25px;
   padding-bottom: 30px;
 }
+
+.about.main {
+  background-color: rgb(245, 245, 240);
+}
+
+.aboutTitle {
+  border-bottom: 4px solid rgb(197, 157, 95);
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.aboutTitleCursive {
+  color: rgb(197, 157, 95);
+  font-family: 'golden cursive', cursive;
+  font-size: 100px;
+}
+
+.aboutTitleNormal {
+  font-size: 70px;
+  font-weight: 800;
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.aboutText {
+  text-align: center;
+  width: 700px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 50px;
+}
