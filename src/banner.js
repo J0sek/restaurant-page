@@ -1,6 +1,7 @@
 import creator from "./elementCreator.js";
 import home from "./mainHome.js";
 import menu from "./mainMenu.js";
+import about from "./mainAbout.js";
 
 let currentTab = "home";
 
@@ -33,6 +34,7 @@ function bannerMaker() {
 
   const aboutBtn = creator("div", "banner-btn", "about");
   aboutBtn.textContent = "ABOUT";
+  loadTabContent(aboutBtn, about);
 
   banner.append(homeBtn, menuBtn, aboutBtn);
 
